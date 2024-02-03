@@ -1,0 +1,208 @@
+
+:root {
+    --f1bgcolor: #fff;
+    --f1iconcolor: dodgerblue;
+    --f1textheadcolor: black;
+    --f1textcolor: #333;
+    --f1bordercolor: #cccccc;
+  }
+  
+  .footer1 {
+    margin-top: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Rubik;
+    background-color: var(--f1bgcolor); /* Use the variable to set the background color */
+    padding: 10px 150px; 
+  }
+  .footer1-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid var(--f1bordercolor);
+    margin: 0 0 60px 0;
+  }
+  .f1-c-icon{
+    color: var(--f1iconcolor);
+    padding: 5px 20px 5px 0;
+    font-size: 30px;
+  }
+  .f1-c-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+  .f1-c-text-head{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--f1textheadcolor);
+  }
+  .f1-c{
+    display: flex;
+    flex-direction: row;
+    /* width: 33%; */
+  }
+  .f1-c-text-sub{
+    font-size: 14px;
+    color: var(--f1textcolor);
+  }
+  .footer1-dev{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 40px 0;
+    padding: 0 0 40px 0;
+    border-bottom: 1px solid var(--f1bordercolor);
+  }
+  .f1-dev-icon-box{
+    display: flex;
+    flex-direction: row;
+    color: var(--f1textheadcolor);
+    margin: 0 0 30px 0;
+  }
+  .f1-dev-i-left{
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    padding: 0 10px;
+    border: 2px solid var(--f1iconcolor);
+  }
+  .f1-app-col{
+    color: var(--f1iconcolor);
+    cursor: pointer;
+  }
+  .f1-dev-i-right{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+  }
+  .f1-dev-i-right-top{
+    color: var(--f1iconcolor);
+    padding: 0 5px 2px 5px;
+    border-bottom: 1px solid var(--f1iconcolor);
+  }
+  .f1-dev-i-right-bottom{
+    padding: 2px 5px 0 5px;
+    border-top: 1px solid var(--f1iconcolor);
+  }
+  .dev-details{
+    color: var(--f1textcolor);
+    font-size: 14px;
+  }
+  .f1-dev-area{
+    width: 33%;
+  }
+  .useful-links{
+    display: flex;
+    flex-direction: column;
+  }
+  .useful-head{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--f1textheadcolor);
+    margin-bottom: 40px;
+  }
+  .line-useful{
+    margin-top: 10px;
+    width: 60px;
+    height: 3px;
+    background-color: var(--f1iconcolor);
+  }
+  .links-2col{
+    display: flex;
+    flex-direction: row;
+    color: var(--f1textcolor);
+  }
+  .links-1{
+    margin: 0 40px 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .link-text{
+    color: var(--f1textcolor);
+    margin: 0 0 13px 0;
+  }
+  .subscribe-form{
+    margin-top: 20px;
+  }
+  .subscribe-form form{
+    display: flex;
+    flex-direction: row;
+  }
+  .subscribe-form input{
+    width: 100%;
+    padding: 14px 28px;
+    background: var(--f1bordercolor); 
+    border: 1px solid var(--f1bordercolor);
+    color: var(--f1textheadcolor);
+    outline: none;
+  }
+  .subscribe-form button{
+    background: var(--f1iconcolor);
+  padding: 13px 20px;
+  border: 1px solid var(--f1iconcolor);
+  }
+  .subscribe-form i{
+    /* color: var(--f1textheadcolor); */
+    color: white;
+    font-size: 30px;
+  /* background-color: var(--f1textheadcolor); */
+  }
+  .social-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .social-icons i{
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+  }
+  .social-icons .fa-facebook-f{
+    background-color: rgb(0, 88, 176);
+    color: white;
+    font-size: 1.2em;
+  }
+  .social-icons .fa-telegram{
+    background-color: rgb(42, 126, 210);
+    color: white;
+    font-size: 1.5em;
+  }
+  .social-icons .fa-instagram{
+    background: rgb(251,71,174);
+    background: linear-gradient(233deg, rgba(251,71,174,1) 27%, rgba(255,76,0,1) 72%); 
+    color: white;
+    font-size: 1.5em;
+  }
+  .social-icons .fa-whatsapp{
+    background: #1ada2d;
+    color: white;
+    font-size: 1.5em;
+  }
+  .follow-span{
+    color: var(--f1textcolor);
+  }
+  .follow-links{
+    padding: 0 0 30px 0;
+    border-bottom: 1px solid var(--f1bordercolor);
+    margin: 0 0 30px 0;
+  }
+  .follow-span-mobile{
+    display: none;
+    color: var(--f1textcolor);
+  }
+  .f1-copy-line{
+    margin: 0 0 20px 0;
+    text-align: center;
+    color: var(--f1textcolor);
+  }
