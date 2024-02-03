@@ -1,5 +1,6 @@
 var options = document.getElementById("options");
 var header = document.getElementById("header");
+var callbook = document.getElementById("callbook");
 function menuShow(){
     if (options.style.maxHeight) {
         options.style.transition = "max-height 0.1s ease-in-out";
@@ -25,3 +26,25 @@ function menuShow(){
 //         services[i].classList.add("slide");
 //     }
 // });
+// document.addEventListener("DOMContentLoaded", function() {
+//     var callbook = document.getElementsByClassName("all-service");
+//     for (var i = 0; i < services.length; i++) {
+//         services[i].classList.add("slide");
+//     }
+// });
+
+var timeout;
+
+function hideCallbook() {   
+    callbook.style.display = "none";
+}
+
+function showCallbook() {
+    callbook.style.display = "flex";
+}
+
+window.addEventListener('scroll', function() {
+    clearTimeout(timeout);
+    hideCallbook();
+    timeout = setTimeout(showCallbook, 250);
+});
