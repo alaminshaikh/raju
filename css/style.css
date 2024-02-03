@@ -213,7 +213,7 @@ body {
 .slide {
     opacity: 0;
     transform: translateY(100%);
-    animation: slideUp 0.5s forwards;
+    animation: slideUp 0.4s forwards;
 }
 
 @keyframes slideUp {
