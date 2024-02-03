@@ -45,7 +45,7 @@
     }
     .follow-span-mobile{
         text-align: justify;
-        text-align-last: justify;
+        /*text-align-last: justify;*/
         font-size: 14px;
     }
     .f1-copy-line{
